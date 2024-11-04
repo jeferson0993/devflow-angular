@@ -6,11 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "lint": "ng lint",
-    "lint:txt": "ng lint > lint-report.txt --silent",
-    "lint:html": "ng lint > lint-report.html --format html --silent",
-    "lint:json": "ng lint > lint-report.json --format json --silent"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -30,27 +26,13 @@
     "@angular-devkit/build-angular": "^18.2.11",
     "@angular/cli": "^18.2.11",
     "@angular/compiler-cli": "^18.2.0",
-    "@types/eslint": "^9.6.1",
     "@types/jasmine": "~5.1.0",
-    "angular-eslint": "18.4.0",
-    "eslint": "^9.13.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-angular": "^4.1.0",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.6.0",
     "jasmine-core": "~5.2.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "pretier": "^0.0.1",
-    "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.8",
-    "tailwindcss": "^3.4.14",
-    "typescript": "~5.5.2",
-    "typescript-eslint": "8.10.0"
+    "typescript": "~5.5.2"
   }
 }
