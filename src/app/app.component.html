@@ -1,8 +1,152 @@
-<main class="main">
-  <div class="content">
-    <h1 class="text-3xl font-bold underline">Hello, {{ title }}</h1>
-    <p>Congratulations! Your app is running. 🎉</p>
-  </div>
-</main>
+<section class="flex min-h-screen items-center bg-red-900 text-white">
+	<div class="container mx-auto px-4 py-16">
+		<div class="mb-12 flex items-center justify-center gap-8">
+			<!-- Angular Logo -->
+			<svg class="pulse h-20 w-20" viewBox="0 0 186.2 200">
+				<path fill="#DD0031" d="M93.1 0L0 33.2l14.2 123.1L93.1 200l78.9-43.7 14.2-123.1z" />
+				<path fill="#C3002F" d="M93.1 0v22.2-.1V200l78.9-43.7 14.2-123.1L93.1 0z" />
+				<path
+					fill="#FFFFFF"
+					d="M93.1 22.1L34.9 152.6h21.7l11.7-29.2h49.4l11.7 29.2h21.7L93.1 22.1zm17 83.3h-34l17-40.9 17 40.9z"
+				/>
+			</svg>
+
+			<!-- Tailwindcss Logo -->
+			<svg
+				class="pulse h-20 w-20"
+				viewBox=".15 .13 799.7 479.69"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="m400 .13c-106.63 0-173.27 53.3-199.93 159.89 39.99-53.3 86.64-73.28 139.95-59.96 30.42 7.6 52.16 29.67 76.23 54.09 39.2 39.78 84.57 85.82 183.68 85.82 106.62 0 173.27-53.3 199.92-159.9-39.98 53.3-86.63 73.29-139.95 59.97-30.41-7.6-52.15-29.67-76.22-54.09-39.2-39.78-84.58-85.82-183.68-85.82zm-199.93 239.84c-106.62 0-173.27 53.3-199.92 159.9 39.98-53.3 86.63-73.29 139.95-59.96 30.41 7.61 52.15 29.67 76.22 54.08 39.2 39.78 84.58 85.83 183.68 85.83 106.63 0 173.27-53.3 199.93-159.9-39.99 53.3-86.64 73.29-139.95 59.96-30.42-7.59-52.16-29.67-76.23-54.08-39.2-39.78-84.57-85.83-183.68-85.83z"
+					fill="#06b6d4"
+				/>
+			</svg>
+
+			<!-- Firebase Logo -->
+			<svg
+				class="pulse h-20 w-20"
+				viewBox="0 0 256 351"
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				preserveAspectRatio="xMidYMid"
+			>
+				<defs>
+					<path
+						d="M1.253 280.732l1.605-3.131 99.353-188.518-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188L1.253 280.732z"
+						id="a"
+					/>
+					<filter
+						x="-50%"
+						y="-50%"
+						width="200%"
+						height="200%"
+						filterUnits="objectBoundingBox"
+						id="b"
+					>
+						<feGaussianBlur stdDeviation="17.5" in="SourceAlpha" result="shadowBlurInner1" />
+						<feOffset in="shadowBlurInner1" result="shadowOffsetInner1" />
+						<feComposite
+							in="shadowOffsetInner1"
+							in2="SourceAlpha"
+							operator="arithmetic"
+							k2="-1"
+							k3="1"
+							result="shadowInnerInner1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"
+							in="shadowInnerInner1"
+						/>
+					</filter>
+					<path
+						d="M134.417 148.974l32.039-32.812-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109-.53 1.744 31.678 58.556z"
+						id="c"
+					/>
+					<filter
+						x="-50%"
+						y="-50%"
+						width="200%"
+						height="200%"
+						filterUnits="objectBoundingBox"
+						id="d"
+					>
+						<feGaussianBlur stdDeviation="3.5" in="SourceAlpha" result="shadowBlurInner1" />
+						<feOffset dx="1" dy="-9" in="shadowBlurInner1" result="shadowOffsetInner1" />
+						<feComposite
+							in="shadowOffsetInner1"
+							in2="SourceAlpha"
+							operator="arithmetic"
+							k2="-1"
+							k3="1"
+							result="shadowInnerInner1"
+						/>
+						<feColorMatrix
+							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"
+							in="shadowInnerInner1"
+						/>
+					</filter>
+				</defs>
+				<path
+					d="M0 282.998l2.123-2.972L102.527 89.512l.212-2.017L58.48 4.358C54.77-2.606 44.33-.845 43.114 6.951L0 282.998z"
+					fill="#FFC24A"
+				/>
+				<use fill="#FFA712" fill-rule="evenodd" xlink:href="#a" />
+				<use filter="url(#b)" xlink:href="#a" />
+				<path
+					d="M135.005 150.38l32.955-33.75-32.965-62.93c-3.129-5.957-11.866-5.975-14.962 0L102.42 87.287v2.86l32.584 60.233z"
+					fill="#F4BD62"
+				/>
+				<use fill="#FFA50E" fill-rule="evenodd" xlink:href="#c" />
+				<use filter="url(#d)" xlink:href="#c" />
+				<path
+					fill="#F6820C"
+					d="M0 282.998l.962-.968 3.496-1.42 128.477-128 1.628-4.431-32.05-61.074z"
+				/>
+				<path
+					d="M139.121 347.551l116.275-64.847-33.204-204.495c-1.039-6.398-8.888-8.927-13.468-4.34L0 282.998l115.608 64.548a24.126 24.126 0 0 0 23.513.005"
+					fill="#FDE068"
+				/>
+				<path
+					d="M254.354 282.16L221.402 79.218c-1.03-6.35-7.558-8.977-12.103-4.424L1.29 282.6l114.339 63.908a23.943 23.943 0 0 0 23.334.006l115.392-64.355z"
+					fill="#FCCA3F"
+				/>
+				<path
+					d="M139.12 345.64a24.126 24.126 0 0 1-23.512-.005L.931 282.015l-.93.983 115.607 64.548a24.126 24.126 0 0 0 23.513.005l116.275-64.847-.285-1.752-115.99 64.689z"
+					fill="#EEAB37"
+				/>
+			</svg>
+		</div>
+
+		<div class="fade-in mb-16 text-center">
+			<h1 class="mb-6 text-6xl font-bold">Coming Soon</h1>
+			<p class="mb-8 text-2xl text-red-200">A real world social blog project</p>
+		</div>
+
+		<hr class="fade-in text-white" />
+
+		<div class="fade-in mt-8 text-center">
+			<p class="mb-4 text-white">Built with cutting-edge technologies</p>
+			<div class="flex flex-wrap justify-center gap-4">
+				<span
+					class="rounded-full border border-red-500/20 bg-red-500/10 px-4 py-2 text-sm text-red-400"
+					>Angular</span
+				>
+				<span
+					class="rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-sm text-blue-400"
+					>TypeScript</span
+				>
+				<span
+					class="rounded-full border border-orange-500/20 bg-orange-500/10 px-4 py-2 text-sm text-orange-400"
+					>Firebase</span
+				>
+				<span
+					class="rounded-full border border-teal-500/20 bg-teal-500/10 px-4 py-2 text-sm text-teal-400"
+					>Tailwind CSS</span
+				>
+			</div>
+		</div>
+	</div>
+</section>
 
 <router-outlet />

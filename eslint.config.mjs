@@ -25,6 +25,6 @@ export default ts.config(
 		}
 	},
 	{
-		ignores: ['build/', 'node_modules/', 'dist/']
+		ignores: ['build/', 'node_modules/', 'dist/', '.angular/', '.vscode/']
 	}
 );
